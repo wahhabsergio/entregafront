@@ -1,0 +1,21 @@
+@media screen and (max-width: 1170px){
+#Servicos {
+flex-wrap: wrap;
+justify-content: center;
+}
+.Service{
+width: calc(50% - 12px) ;
+}
+
+.carrovermelho{
+width: 260px;
+}
+}
+@media screen and (max-width: 600px) {
+.Service{
+width: 100%;
+}
+#menu{
+text-align: center;
+}
+}
