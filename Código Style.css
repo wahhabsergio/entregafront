@@ -1,0 +1,52 @@
+Código Style.css geral:
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #E0E0E0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+padding: 28px 8%;
+}
+.btn-default{
+color: white;
+}
+.btn-default{
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #0099ff;
+border-radius: 12px;
+padding: 10px 14px;
+font-weight: 600;
+box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+
+cursor: pointer;
+transition: background-color .3s ease;
+color: white;
+}
+.btn-default:hover{
+background-color: #bbd9ec;
+}
+.social-media-buttons{
+display: flex;
+gap: 18px;
+}
+.section-tittle{
+color: #0099ff;
+font-size: 1.563rem;
+text-align: center;
+}
+.section-sub-tittle{
+font-size: 2.1875rem;
+text-align: center;
+}
+a, .btn-default{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.842) ;
+}
